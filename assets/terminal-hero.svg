@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Esteban Deloge cyber terminal profile banner</title>
+  <desc id="desc">Dark cyber terminal banner for teefloo, focused on developer tools, automation, MCP, AI workflows, and web products.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020611" />
+      <stop offset="0.48" stop-color="#07111f" />
+      <stop offset="1" stop-color="#031513" />
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="82%" cy="22%" r="45%">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.48" />
+      <stop offset="0.42" stop-color="#22d3ee" stop-opacity="0.12" />
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowGreen" cx="12%" cy="86%" r="52%">
+      <stop offset="0" stop-color="#7cffc4" stop-opacity="0.28" />
+      <stop offset="0.45" stop-color="#7cffc4" stop-opacity="0.08" />
+      <stop offset="1" stop-color="#7cffc4" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#1f3b4d" stroke-width="1" opacity="0.45" />
+    </pattern>
+    <linearGradient id="terminal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1423" stop-opacity="0.96" />
+      <stop offset="1" stop-color="#06120f" stop-opacity="0.98" />
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      .mono { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .muted { fill: #8ca3b8; }
+      .line { fill: #b6ffe2; }
+      .cyan { fill: #22d3ee; }
+      .green { fill: #7cffc4; }
+      .white { fill: #f4fbff; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)" />
+  <rect width="1200" height="420" fill="url(#glowCyan)" />
+  <rect width="1200" height="420" fill="url(#glowGreen)" />
+  <rect width="1200" height="420" fill="url(#grid)" opacity="0.62" />
+
+  <g opacity="0.14">
+    <path d="M0 52H1200M0 104H1200M0 156H1200M0 208H1200M0 260H1200M0 312H1200M0 364H1200" stroke="#d7ffef" stroke-width="1" />
+  </g>
+
+  <g filter="url(#softGlow)" opacity="0.86">
+    <path d="M808 66h180l56 56h91" fill="none" stroke="#22d3ee" stroke-width="2" />
+    <circle cx="808" cy="66" r="4" fill="#22d3ee" />
+    <circle cx="1135" cy="122" r="4" fill="#22d3ee" />
+    <path d="M690 336h156l42-42h186" fill="none" stroke="#7cffc4" stroke-width="2" />
+    <circle cx="690" cy="336" r="4" fill="#7cffc4" />
+    <circle cx="1074" cy="294" r="4" fill="#7cffc4" />
+  </g>
+
+  <rect x="42" y="36" width="1116" height="348" rx="28" fill="#020711" stroke="#1b5d6f" stroke-width="1.5" opacity="0.88" />
+  <rect x="58" y="52" width="1084" height="316" rx="21" fill="url(#terminal)" stroke="#2be4ff" stroke-opacity="0.28" />
+
+  <g class="mono">
+    <rect x="58" y="52" width="1084" height="48" rx="21" fill="#06111d" />
+    <circle cx="87" cy="76" r="6" fill="#ff5f57" />
+    <circle cx="109" cy="76" r="6" fill="#ffbd2e" />
+    <circle cx="131" cy="76" r="6" fill="#28c840" />
+    <text x="166" y="82" fill="#7b90a8" font-size="15">teefloo@github:~/operator-profile</text>
+    <text x="1010" y="82" fill="#22d3ee" font-size="13">SECURE SHELL</text>
+  </g>
+
+  <g class="mono" font-size="20">
+    <text x="86" y="145" class="green">$ init --profile teefloo</text>
+    <text x="86" y="181" class="muted">status</text>
+    <text x="184" y="181" class="line">developer tools operator</text>
+    <text x="86" y="215" class="muted">focus</text>
+    <text x="184" y="215" class="line">automation / mcp / ai workflows / web products</text>
+    <text x="86" y="249" class="muted">mode</text>
+    <text x="184" y="249" class="line">turning repeated work into reliable systems</text>
+  </g>
+
+  <g>
+    <text x="84" y="308" class="sans white" font-size="55" font-weight="800" letter-spacing="1">ESTEBAN DELOGE</text>
+    <text x="88" y="342" class="mono cyan" font-size="22">@teefloo</text>
+  </g>
+
+  <g class="mono" font-size="15">
+    <rect x="748" y="132" width="328" height="178" rx="18" fill="#06131f" stroke="#264c5d" />
+    <text x="774" y="166" class="cyan">ACTIVE MODULES</text>
+    <g fill="none" stroke="#20394a">
+      <path d="M774 181h276" />
+      <path d="M774 222h276" />
+      <path d="M774 263h276" />
+    </g>
+    <text x="774" y="207" class="line">01  MCP servers</text>
+    <text x="774" y="248" class="line">02  agent systems</text>
+    <text x="774" y="289" class="line">03  workflow automation</text>
+    <text x="970" y="207" class="green">online</text>
+    <text x="970" y="248" class="green">online</text>
+    <text x="970" y="289" class="green">online</text>
+  </g>
+
+  <g opacity="0.42">
+    <rect x="58" y="366" width="1084" height="2" fill="#22d3ee" />
+    <rect x="58" y="100" width="1084" height="1" fill="#7cffc4" opacity="0.36" />
+  </g>
+</svg>
