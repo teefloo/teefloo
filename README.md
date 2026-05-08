@@ -1,97 +1,118 @@
-<div align="center">
-
-# Esteban Deloge
-
-**Developer tools, automation systems, AI workflows, and pragmatic web products.**
-
-I build reliable tools around the work people repeat every day: MCP servers, agent libraries, workflow automation, API integrations, scraping pipelines, and focused web interfaces.
-
-<p>
-  <a href="https://github.com/teefloo">
-    <img src="https://img.shields.io/badge/GitHub-teefloo-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
-  </a>
-  <a href="https://www.linkedin.com/in/esteban-deloge/">
-    <img src="https://img.shields.io/badge/LinkedIn-Esteban%20Deloge-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
-  </a>
+<p align="center">
+  <img src="./assets/terminal-hero.svg" alt="Esteban Deloge cyber terminal profile banner" width="100%" />
 </p>
-
-<p>
-  <img src="https://img.shields.io/badge/Focus-Developer%20Tools-111827?style=flat-square" alt="Developer tools" />
-  <img src="https://img.shields.io/badge/Focus-Automation-111827?style=flat-square" alt="Automation" />
-  <img src="https://img.shields.io/badge/Focus-MCP-111827?style=flat-square" alt="MCP" />
-  <img src="https://img.shields.io/badge/Focus-AI%20Tooling-111827?style=flat-square" alt="AI tooling" />
-</p>
-
-</div>
-
-## About
-
-I'm a developer focused on turning messy, manual workflows into dependable systems. My work usually sits where automation, AI tooling, infrastructure, and product UX overlap.
-
-I like tools that are easy to operate, safe by default, and documented well enough that someone else can trust them without a walkthrough.
-
-## Skills
-
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,react,nextjs,py,postgres,docker,linux,git,github,tailwind&theme=dark" alt="TypeScript, JavaScript, Node.js, React, Next.js, Python, PostgreSQL, Docker, Linux, Git, GitHub, Tailwind CSS" />
-</p>
-
-| Area | What I work with |
-| :--- | :--- |
-| Automation | Workflow design, scheduled jobs, webhooks, REST APIs, scraping, task orchestration |
-| AI tooling | MCP servers, agent libraries, OpenRouter integrations, prompt systems, local RAG experiments |
-| Web products | TypeScript, React, Next.js, Vite, Tailwind CSS, responsive dashboards |
-| Backend and data | Node.js, Python, PostgreSQL, API design, data pipelines |
-| Infrastructure | Docker, Linux, SSH, GitHub, Home Assistant, deployment workflows |
-| Quality | Playwright, integration checks, clear documentation, maintainable handoffs |
-
-## Featured Projects
-
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| [asuswrt-mcp](https://github.com/teefloo/asuswrt-mcp) | Model Context Protocol server for secure AsusWRT and AsusWRT-Merlin router administration over SSH, with allowlisted operations and guarded mutations. | `Python` `MCP` `SSH` `Automation` |
-| [Gemini-SubAgent](https://github.com/teefloo/Gemini-SubAgent) | Library of specialized autonomous agents optimized for Gemini CLI and high-signal terminal workflows. | `Agents` `CLI` `Automation` |
-| [PolyChat-AI](https://github.com/teefloo/PolyChat-AI) | Multi-model AI chat interface with OpenRouter support, streaming responses, local RAG experiments, and customizable UI. | `TypeScript` `React` `Vite` `OpenRouter` |
-| [comparateur-prix-discount](https://github.com/teefloo/comparateur-prix-discount) | Discount price comparison system for French retailers, combining scraping, search, and PostgreSQL-backed persistence. | `Next.js` `Playwright` `PostgreSQL` `Scraping` |
-| [HA-GameGiveAways](https://github.com/teefloo/HA-GameGiveAways) | Home Assistant integration that monitors gaming giveaways through the GamerPower API and exposes useful sensors for automations. | `Python` `Home Assistant` `API` |
-| [PrimeDex](https://github.com/teefloo/PrimeDex) | High-performance Pokemon dashboard with team building, comparison tools, collection tracking, and polished frontend interactions. | `Next.js` `React` `TypeScript` `UX` |
-
-## Tools I Reach For
-
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827" alt="Linux" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Home%20Assistant-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="Home Assistant" />
-  <img src="https://img.shields.io/badge/OpenRouter-111827?style=flat-square" alt="OpenRouter" />
-  <img src="https://img.shields.io/badge/MCP-111827?style=flat-square" alt="Model Context Protocol" />
-</p>
-
-## How I Build
-
-- Start with the real workflow, then automate the parts that actually create friction.
-- Prefer safe defaults, explicit controls, and clear failure modes.
-- Treat AI as an operator inside a system, not as decoration around one.
-- Keep interfaces fast, direct, and easy to scan.
-- Write documentation that helps the next person run, debug, and extend the tool.
-
-## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=teefloo&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" width="49%" alt="GitHub stats for teefloo" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=teefloo&layout=compact&theme=github_dark&hide_border=true" width="49%" alt="Top languages used by teefloo" />
-</p>
-
-## Contact
-
-<p>
-  <a href="https://github.com/teefloo">GitHub</a> ·
+  <a href="https://github.com/teefloo">GitHub</a>
+  <span> / </span>
   <a href="https://www.linkedin.com/in/esteban-deloge/">LinkedIn</a>
 </p>
+
+## ./operator
+
+```txt
+handle      teefloo
+name        Esteban Deloge
+mode        developer tools operator
+focus       automation, MCP, AI tooling, web products
+principle   build systems that keep working after the demo
+```
+
+I build practical tools for repeated work: agent systems, MCP servers, automation workflows, API bridges, scraping pipelines, and web interfaces that make complex operations easier to run.
+
+The work I care about most lives at the edge between software and operations: clear controls, safe defaults, readable docs, and systems that can be trusted by the next person who touches them.
+
+<p align="center">
+  <img src="./assets/system-panel.svg" alt="teefloo system signal panel" width="100%" />
+</p>
+
+## ./featured-public-systems
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/teefloo/asuswrt-mcp">asuswrt-mcp</a></h3>
+      <p>Model Context Protocol server for secure AsusWRT and AsusWRT-Merlin router administration over SSH, with allowlisted operations and guarded mutations.</p>
+      <p><code>Python</code> <code>MCP</code> <code>SSH</code> <code>Automation</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/teefloo/Gemini-SubAgent">Gemini-SubAgent</a></h3>
+      <p>Specialized autonomous-agent library for Gemini CLI, built around high-signal terminal workflows and delegated engineering tasks.</p>
+      <p><code>Agents</code> <code>CLI</code> <code>Automation</code> <code>AI Tools</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/teefloo/PolyChat-AI">PolyChat-AI</a></h3>
+      <p>Multi-model AI chat interface with OpenRouter support, streaming responses, local RAG experiments, quick actions, and customizable UI modes.</p>
+      <p><code>TypeScript</code> <code>React</code> <code>Vite</code> <code>OpenRouter</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/teefloo/comparateur-prix-discount">comparateur-prix-discount</a></h3>
+      <p>Discount price comparison system for French retailers, combining scraping, search, scheduled data collection, and PostgreSQL persistence.</p>
+      <p><code>Next.js</code> <code>Playwright</code> <code>PostgreSQL</code> <code>Scraping</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/teefloo/HA-GameGiveAways">HA-GameGiveAways</a></h3>
+      <p>Home Assistant integration that monitors gaming giveaways through the GamerPower API and exposes useful sensors for automations.</p>
+      <p><code>Python</code> <code>Home Assistant</code> <code>API</code> <code>Sensors</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/teefloo/PrimeDex">PrimeDex</a></h3>
+      <p>High-performance Pokemon dashboard with team building, comparison tools, collection tracking, and polished frontend interactions.</p>
+      <p><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Product UX</code></p>
+    </td>
+  </tr>
+</table>
+
+## ./stack
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Automation layer</strong><br />
+      workflow design, webhooks, scheduled jobs, scraping, REST APIs, operational checks
+    </td>
+    <td width="33%" valign="top">
+      <strong>AI layer</strong><br />
+      MCP servers, agent libraries, OpenRouter, prompt systems, local RAG experiments
+    </td>
+    <td width="33%" valign="top">
+      <strong>Product layer</strong><br />
+      TypeScript, React, Next.js, Vite, Tailwind CSS, dashboards, fast interfaces
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Backend layer</strong><br />
+      Node.js, Python, PostgreSQL, API design, durable data flows
+    </td>
+    <td width="33%" valign="top">
+      <strong>Infrastructure layer</strong><br />
+      Docker, Linux, SSH, GitHub, Home Assistant, deployment workflows
+    </td>
+    <td width="33%" valign="top">
+      <strong>Quality layer</strong><br />
+      Playwright, integration checks, clear documentation, maintainable handoffs
+    </td>
+  </tr>
+</table>
+
+## ./build-philosophy
+
+```txt
+01  start from the real workflow
+02  automate the parts that create friction
+03  make dangerous operations explicit
+04  keep the interface fast and scannable
+05  document the system like someone else will run it tomorrow
+```
+
+## ./contact
+
+```txt
+GitHub    https://github.com/teefloo
+LinkedIn  https://www.linkedin.com/in/esteban-deloge/
+```
