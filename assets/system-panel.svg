@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">teefloo system signal panel</title>
+  <desc id="desc">Static cyber terminal panel replacing external GitHub stats with curated project and skill signals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030712" />
+      <stop offset="0.55" stop-color="#071322" />
+      <stop offset="1" stop-color="#031712" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1c3447" stroke-width="1" opacity="0.5" />
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      .mono { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .cyan { fill: #22d3ee; }
+      .green { fill: #7cffc4; }
+      .text { fill: #e6f7ff; }
+      .muted { fill: #8ea4b7; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)" />
+  <rect width="1200" height="360" rx="28" fill="url(#grid)" opacity="0.72" />
+  <rect x="18" y="18" width="1164" height="324" rx="22" fill="#020817" stroke="#1d5b6b" stroke-width="1.5" />
+
+  <g class="mono">
+    <text x="48" y="60" class="cyan" font-size="18">SYSTEM SIGNAL</text>
+    <text x="48" y="91" class="muted" font-size="14">static / repo-owned / no external stats dependency</text>
+    <text x="916" y="60" class="green" font-size="16">PROFILE STATUS: ONLINE</text>
+  </g>
+
+  <g class="sans">
+    <rect x="48" y="124" width="204" height="132" rx="18" fill="#071525" stroke="#183f50" />
+    <rect x="274" y="124" width="204" height="132" rx="18" fill="#071525" stroke="#183f50" />
+    <rect x="500" y="124" width="204" height="132" rx="18" fill="#071525" stroke="#183f50" />
+    <rect x="726" y="124" width="204" height="132" rx="18" fill="#071525" stroke="#183f50" />
+    <rect x="952" y="124" width="200" height="132" rx="18" fill="#071525" stroke="#183f50" />
+
+    <text x="72" y="166" class="muted" font-size="14" font-weight="700">PUBLIC TOOLS</text>
+    <text x="72" y="207" class="text" font-size="42" font-weight="800">6</text>
+    <text x="124" y="206" class="green" font-size="16">featured</text>
+
+    <text x="298" y="166" class="muted" font-size="14" font-weight="700">MCP</text>
+    <text x="298" y="207" class="text" font-size="42" font-weight="800">servers</text>
+    <text x="298" y="232" class="green" font-size="15">context bridges</text>
+
+    <text x="524" y="166" class="muted" font-size="14" font-weight="700">AUTOMATION</text>
+    <text x="524" y="207" class="text" font-size="34" font-weight="800">jobs + APIs</text>
+    <text x="524" y="232" class="green" font-size="15">webhooks / scraping</text>
+
+    <text x="750" y="166" class="muted" font-size="14" font-weight="700">AI TOOLING</text>
+    <text x="750" y="207" class="text" font-size="34" font-weight="800">agents</text>
+    <text x="750" y="232" class="green" font-size="15">OpenRouter / RAG</text>
+
+    <text x="976" y="166" class="muted" font-size="14" font-weight="700">WEB PRODUCTS</text>
+    <text x="976" y="207" class="text" font-size="34" font-weight="800">Next.js</text>
+    <text x="976" y="232" class="green" font-size="15">React / TypeScript</text>
+  </g>
+
+  <g class="mono" font-size="14">
+    <text x="48" y="296" class="muted">stack.trace</text>
+    <text x="154" y="296" class="text">TypeScript -> React -> Python -> PostgreSQL -> Playwright -> Docker -> Linux -> GitHub</text>
+    <rect x="48" y="314" width="1104" height="4" rx="2" fill="#102335" />
+    <rect x="48" y="314" width="924" height="4" rx="2" fill="#22d3ee" filter="url(#glow)" />
+    <rect x="48" y="314" width="612" height="4" rx="2" fill="#7cffc4" filter="url(#glow)" />
+  </g>
+
+  <g opacity="0.38">
+    <path d="M48 106H1152" stroke="#22d3ee" />
+    <path d="M48 274H1152" stroke="#7cffc4" />
+  </g>
+</svg>
