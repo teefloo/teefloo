@@ -1,0 +1,78 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Esteban Deloge — Automation Engineer &amp; Developer</title>
+  <desc id="hero-desc">Profile banner: automation, n8n, Jeedom, AI and Chrome extensions, connected as a small network.</desc>
+  <style>
+    svg {
+      --bg:#FAFAF9; --ink:#191A1F; --accent:#CF3F17; --accent2:#973A20; --muted:#78716C; --border:#191A1F;
+    }
+    @media (prefers-color-scheme: dark) {
+      svg { --bg:#14161A; --ink:#F3F3F1; --accent:#EF6039; --accent2:#E87C5E; --muted:#A8A29E; --border:#F3F3F1; }
+    }
+    .bg { fill: var(--bg); }
+    .border { fill: none; stroke: var(--border); stroke-opacity: 0.12; }
+    .ink { fill: var(--ink); }
+    .accent-fill { fill: var(--accent); }
+    .muted { fill: var(--muted); }
+    .node { fill: var(--bg); stroke: var(--accent); stroke-width: 2; }
+    .hub { fill: var(--accent); }
+    .link { fill: none; stroke: var(--accent2); stroke-opacity: 0.5; stroke-width: 1.5; }
+    .label { fill: var(--muted); font-family: 'SF Mono', SFMono-Regular, Consolas, Menlo, monospace; font-size: 13px; letter-spacing: 0.4px; }
+    .name { fill: var(--ink); font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 50px; font-weight: 800; }
+    .role { fill: var(--accent); font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 22px; font-weight: 600; }
+    .strap { fill: var(--muted); font-family: 'SF Mono', SFMono-Regular, Consolas, Menlo, monospace; font-size: 13px; letter-spacing: 1.6px; }
+    .tagline { fill: var(--ink); font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 16px; font-style: italic; opacity: 0.85; }
+    .status { fill: var(--muted); font-family: 'SF Mono', SFMono-Regular, Consolas, Menlo, monospace; font-size: 12px; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1200" height="300" rx="18"/>
+  <rect class="border" x="1" y="1" width="1198" height="298" rx="17"/>
+
+  <text x="56" y="112" class="name">Esteban Deloge</text>
+  <text x="58" y="148" class="role">Automation Engineer &amp; Developer</text>
+  <text x="58" y="178" class="strap">n8n · JEEDOM · AI · CHROME EXTENSIONS</text>
+  <text x="58" y="214" class="tagline">"Turning repetitive tasks into smart solutions."</text>
+
+  <circle cx="62" cy="253" r="4" class="accent-fill">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="76" y="258" class="status">open to opportunities</text>
+
+  <!-- automation network graphic -->
+  <g>
+    <g class="link" stroke-dasharray="3 5">
+      <path id="linkJeedom" d="M870,150 L770,75">
+        <animate attributeName="stroke-dashoffset" values="0;-16" dur="1.8s" repeatCount="indefinite"/>
+      </path>
+      <path id="linkAI" d="M870,150 L970,75">
+        <animate attributeName="stroke-dashoffset" values="0;-16" dur="1.8s" repeatCount="indefinite"/>
+      </path>
+      <path id="linkN8n" d="M870,150 L770,225">
+        <animate attributeName="stroke-dashoffset" values="0;-16" dur="1.8s" repeatCount="indefinite"/>
+      </path>
+      <path id="linkChrome" d="M870,150 L970,225">
+        <animate attributeName="stroke-dashoffset" values="0;-16" dur="1.8s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <circle r="3.5" class="accent-fill">
+      <animateMotion dur="2.6s" repeatCount="indefinite">
+        <mpath href="#linkAI"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="870" cy="150" r="9" class="hub"/>
+
+    <circle cx="770" cy="75" r="7" class="node"/>
+    <text x="770" y="54" text-anchor="middle" class="label">Jeedom</text>
+
+    <circle cx="970" cy="75" r="7" class="node"/>
+    <text x="970" y="54" text-anchor="middle" class="label">AI</text>
+
+    <circle cx="770" cy="225" r="7" class="node"/>
+    <text x="770" y="250" text-anchor="middle" class="label">n8n</text>
+
+    <circle cx="970" cy="225" r="7" class="node"/>
+    <text x="970" y="250" text-anchor="middle" class="label">Chrome</text>
+  </g>
+</svg>

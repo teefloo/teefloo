@@ -1,21 +1,14 @@
 <div align="center">
 
-# Esteban Deloge
+<img src="./assets/hero.svg" alt="Esteban Deloge — Automation Engineer & Developer" width="100%" />
 
-### Automation Engineer & Developer
-
-**n8n · Jeedom · AI · Chrome Extensions**
-
-*Turning repetitive tasks into smart solutions.*
-
-![Status](https://img.shields.io/badge/status-open%20to%20opportunities-CF3F17?style=flat-square)
 [![GitHub](https://img.shields.io/badge/GitHub-teefloo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/teefloo)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-esteban--deloge-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/esteban-deloge/)
 [![Email](https://img.shields.io/badge/Email-contact%40teeflo.me-CF3F17?style=flat-square)](mailto:contact@teeflo.me)
 
 </div>
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## Profile
 
@@ -29,7 +22,7 @@ Automation Engineer based in France, specialized in turning repetitive workflows
 
 </div>
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## Selected Works
 
@@ -81,7 +74,7 @@ Model Context Protocol server for secure AsusWRT / AsusWRT-Merlin router adminis
 
 `Python` `MCP` `SSH` `AsusWRT`
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## More Systems
 
@@ -97,7 +90,7 @@ Model Context Protocol server for secure AsusWRT / AsusWRT-Merlin router adminis
 | LinkedIn Cleaner | 2025 | Chrome extension automating LinkedIn connection cleanup | JavaScript, Chrome Extension, LinkedIn API |
 | HP Printer Plugin | 2024 | Jeedom plugin monitoring HP printers via the EWS protocol | PHP, Jeedom, HP EWS, SNMP |
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## Stack
 
@@ -110,19 +103,15 @@ Model Context Protocol server for secure AsusWRT / AsusWRT-Merlin router adminis
 | **Backend & APIs** | Node.js, PostgreSQL, SQLite, SSH, FastMCP |
 | **Tools** | React, Next.js, Vite, Tailwind CSS, Shadcn UI, Framer Motion, Zustand, Vercel |
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## How I Work
 
-```
-01  map the repetitive work
-02  connect the tools and APIs
-03  ship durable automations
-```
+<img src="./assets/workflow-rail.svg" alt="Workflow: audit, connect, automate" width="100%" />
 
 > Turning repetitive tasks into smart solutions — code that works, tools that last.
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## Contact
 

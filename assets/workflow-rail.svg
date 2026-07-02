@@ -1,0 +1,42 @@
+<svg viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rail-title">
+  <title id="rail-title">Workflow: map repetitive work, connect tools and APIs, ship durable automations</title>
+  <style>
+    svg {
+      --bg:#FAFAF9; --card:#FAFAF9; --ink:#191A1F; --accent:#CF3F17; --accent2:#973A20; --muted:#78716C; --border:#191A1F;
+    }
+    @media (prefers-color-scheme: dark) {
+      svg { --bg:#14161A; --card:#14161A; --ink:#F3F3F1; --accent:#EF6039; --accent2:#E87C5E; --muted:#A8A29E; --border:#F3F3F1; }
+    }
+    .card { fill: var(--card); stroke: var(--border); stroke-opacity: 0.14; }
+    .num { fill: var(--accent); font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 34px; font-weight: 800; }
+    .title { fill: var(--ink); font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 23px; font-weight: 700; }
+    .sub { fill: var(--muted); font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; }
+    .arrow { fill: none; stroke: var(--accent2); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; opacity: 0.8; }
+  </style>
+
+  <rect class="card" x="30" y="35" width="340" height="150" rx="14"/>
+  <text x="58" y="98" class="num">01</text>
+  <text x="58" y="132" class="title">Audit</text>
+  <text x="58" y="158" class="sub">Map repetitive work</text>
+
+  <rect class="card" x="430" y="35" width="340" height="150" rx="14"/>
+  <text x="458" y="98" class="num">02</text>
+  <text x="458" y="132" class="title">Connect</text>
+  <text x="458" y="158" class="sub">Connect tools and APIs</text>
+
+  <rect class="card" x="830" y="35" width="340" height="150" rx="14"/>
+  <text x="858" y="98" class="num">03</text>
+  <text x="858" y="132" class="title">Automate</text>
+  <text x="858" y="158" class="sub">Ship durable automations</text>
+
+  <g transform="translate(400,110)">
+    <path class="arrow" d="M-7,-10 L7,0 L-7,10">
+      <animateTransform attributeName="transform" type="translate" values="0,0;6,0;0,0" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g transform="translate(800,110)">
+    <path class="arrow" d="M-7,-10 L7,0 L-7,10">
+      <animateTransform attributeName="transform" type="translate" values="0,0;6,0;0,0" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
