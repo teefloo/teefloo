@@ -1,118 +1,129 @@
-<p align="center">
-  <img src="./assets/terminal-hero.svg" alt="Esteban Deloge cyber terminal profile banner" width="100%" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/teefloo">GitHub</a>
-  <span> / </span>
-  <a href="https://www.linkedin.com/in/esteban-deloge/">LinkedIn</a>
-</p>
+# Esteban Deloge
 
-## ./operator
+### Automation Engineer & Developer
 
-```txt
-handle      teefloo
-name        Esteban Deloge
-mode        developer tools operator
-focus       automation, MCP, AI tooling, web products
-principle   build systems that keep working after the demo
+**n8n · Jeedom · AI · Chrome Extensions**
+
+*Turning repetitive tasks into smart solutions.*
+
+![Status](https://img.shields.io/badge/status-open%20to%20opportunities-CF3F17?style=flat-square)
+[![GitHub](https://img.shields.io/badge/GitHub-teefloo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/teefloo)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-esteban--deloge-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/esteban-deloge/)
+[![Email](https://img.shields.io/badge/Email-contact%40teeflo.me-CF3F17?style=flat-square)](mailto:contact@teeflo.me)
+
+</div>
+
+---
+
+## Profile
+
+Automation Engineer based in France, specialized in turning repetitive workflows into durable, self-running systems. The work spans three layers: **home automation** (Jeedom plugins, n8n integrations), **browser automation** (Chrome extensions), and **AI integration** (MCP servers, multi-model chat tooling). Less interested in demos, more in what still runs correctly six months later.
+
+<div align="center">
+
+| Original repos | Jeedom plugins | Chrome extensions | MCP servers |
+| :---: | :---: | :---: | :---: |
+| 10 | 2 | 3 | 2 |
+
+</div>
+
+---
+
+## Selected Works
+
+### [TRKF Esport](https://trkf-esport.com/) — 2026
+Official platform for the professional esports organization TRKF: news, competitive achievements, an integrated shop, and live stream monitoring.
+- Dynamic roster and staff management
+- Real-time Twitch stream monitoring
+- Integrated official shop
+
+`TypeScript` `React` `Tailwind CSS` `Shadcn UI`
+
+### [MyImpots](https://myimpots.com) — 2026 · [repo](https://github.com/teefloo/MyImpots)
+Income tax simulator and interactive guide for the French tax return, with real expense deduction and tax credit calculation.
+- Income tax simulator
+- Actual mileage expense calculator
+- Detailed guide to declaration boxes
+
+`TypeScript` `React` `Next.js` `Shadcn UI`
+
+### [Vinscripted](https://chromewebstore.google.com/detail/vinscripted/cpkdoifefilcgjeblffelchoodkofjjn) — 2026
+Chrome extension + Vercel backend that analyzes Vinted listing photos and generates optimized descriptions with Google Gemini.
+- AI-powered image analysis (Gemini)
+- Automatic SEO title/description generation
+- 8 languages, 10 Vinted domains supported
+
+`JavaScript` `Chrome Extension` `Node.js` `Vercel` `Google Gemini`
+
+### [PolyChat-AI](https://polychat-ai-xi.vercel.app/) — 2026 · [repo](https://github.com/teefloo/PolyChat-AI)
+Multi-model AI chat interface for switching between Gemini, Mistral, and Claude inside a single conversation surface.
+- Multi-model routing via OpenRouter
+- Context-aware conversation management
+- Dynamic model switching
+
+`TypeScript` `React` `Vite` `OpenRouter`
+
+### [PrimeDex](https://primedex.vercel.app/) — 2026 · [repo](https://github.com/teefloo/PrimeDex)
+High-performance Pokemon dashboard built on Next.js 15 and PokeAPI.
+- Interactive Pokemon visualization
+- Advanced search and filters
+- Framer Motion animations throughout
+
+`TypeScript` `Next.js 15` `PokeAPI` `Zustand` `Framer Motion`
+
+### [AsusWRT MCP](https://github.com/teefloo/asuswrt-mcp) — 2025
+Model Context Protocol server for secure AsusWRT / AsusWRT-Merlin router administration over SSH.
+- Router administration via SSH
+- Guarded, allowlisted mutations
+- Automated router task execution
+
+`Python` `MCP` `SSH` `AsusWRT`
+
+---
+
+## More Systems
+
+| Project | Year | Description | Stack |
+| --- | :---: | --- | --- |
+| [Gemini-SubAgent](https://github.com/teefloo/Gemini-SubAgent) | 2025 | 2,000+ hyper-specialized autonomous agents for the Gemini CLI | PowerShell, Gemini CLI, AI Agents |
+| [Price Comparator Discount](https://github.com/teefloo/comparateur-prix-discount) | 2025 | Live-scraped discount price comparison across French retailers | TypeScript, Playwright, PostgreSQL |
+| [Parions Sport Odds MCP](https://github.com/teefloo/parions-sport-odds-mcp) | 2025 | MCP server exposing FDJ's public sports betting odds database | Python, MCP, SQLite, FastMCP |
+| [HA-GameGiveAways](https://github.com/teefloo/HA-GameGiveAways) | 2025 | Home Assistant integration tracking free game giveaways via GamerPower | Python, Home Assistant, GamerPower API |
+| [FantaWiki](https://github.com/teefloo/FantaWiki) | 2025 | Wiki-style community hub for Fanta enthusiasts | TypeScript, React, Tailwind CSS |
+| plugin-n8n | 2025 | Jeedom plugin to trigger and monitor n8n workflows from a home automation system | PHP, Jeedom, n8n |
+| Gmail Badge Notifier | 2025 | Minimalist Chrome extension showing unread Gmail count | JavaScript, Chrome Extension, Gmail API |
+| LinkedIn Cleaner | 2025 | Chrome extension automating LinkedIn connection cleanup | JavaScript, Chrome Extension, LinkedIn API |
+| HP Printer Plugin | 2024 | Jeedom plugin monitoring HP printers via the EWS protocol | PHP, Jeedom, HP EWS, SNMP |
+
+---
+
+## Stack
+
+| Category | Technologies |
+| --- | --- |
+| **Languages** | TypeScript, JavaScript, Python, PHP, PowerShell |
+| **Automation** | n8n, Jeedom, Home Assistant, REST APIs, web scraping (Playwright) |
+| **AI** | Model Context Protocol (MCP), OpenRouter, Google Gemini, autonomous agents |
+| **Extensions** | Chrome Extensions (Manifest V3), Gmail API, LinkedIn API |
+| **Backend & APIs** | Node.js, PostgreSQL, SQLite, SSH, FastMCP |
+| **Tools** | React, Next.js, Vite, Tailwind CSS, Shadcn UI, Framer Motion, Zustand, Vercel |
+
+---
+
+## How I Work
+
+```
+01  map the repetitive work
+02  connect the tools and APIs
+03  ship durable automations
 ```
 
-I build practical tools for repeated work: agent systems, MCP servers, automation workflows, API bridges, scraping pipelines, and web interfaces that make complex operations easier to run.
+> Turning repetitive tasks into smart solutions — code that works, tools that last.
 
-The work I care about most lives at the edge between software and operations: clear controls, safe defaults, readable docs, and systems that can be trusted by the next person who touches them.
+---
 
-<p align="center">
-  <img src="./assets/system-panel.svg" alt="teefloo system signal panel" width="100%" />
-</p>
+## Contact
 
-## ./featured-public-systems
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/teefloo/asuswrt-mcp">asuswrt-mcp</a></h3>
-      <p>Model Context Protocol server for secure AsusWRT and AsusWRT-Merlin router administration over SSH, with allowlisted operations and guarded mutations.</p>
-      <p><code>Python</code> <code>MCP</code> <code>SSH</code> <code>Automation</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/teefloo/Gemini-SubAgent">Gemini-SubAgent</a></h3>
-      <p>Specialized autonomous-agent library for Gemini CLI, built around high-signal terminal workflows and delegated engineering tasks.</p>
-      <p><code>Agents</code> <code>CLI</code> <code>Automation</code> <code>AI Tools</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/teefloo/PolyChat-AI">PolyChat-AI</a></h3>
-      <p>Multi-model AI chat interface with OpenRouter support, streaming responses, local RAG experiments, quick actions, and customizable UI modes.</p>
-      <p><code>TypeScript</code> <code>React</code> <code>Vite</code> <code>OpenRouter</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/teefloo/comparateur-prix-discount">comparateur-prix-discount</a></h3>
-      <p>Discount price comparison system for French retailers, combining scraping, search, scheduled data collection, and PostgreSQL persistence.</p>
-      <p><code>Next.js</code> <code>Playwright</code> <code>PostgreSQL</code> <code>Scraping</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/teefloo/HA-GameGiveAways">HA-GameGiveAways</a></h3>
-      <p>Home Assistant integration that monitors gaming giveaways through the GamerPower API and exposes useful sensors for automations.</p>
-      <p><code>Python</code> <code>Home Assistant</code> <code>API</code> <code>Sensors</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/teefloo/PrimeDex">PrimeDex</a></h3>
-      <p>High-performance Pokemon dashboard with team building, comparison tools, collection tracking, and polished frontend interactions.</p>
-      <p><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Product UX</code></p>
-    </td>
-  </tr>
-</table>
-
-## ./stack
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>Automation layer</strong><br />
-      workflow design, webhooks, scheduled jobs, scraping, REST APIs, operational checks
-    </td>
-    <td width="33%" valign="top">
-      <strong>AI layer</strong><br />
-      MCP servers, agent libraries, OpenRouter, prompt systems, local RAG experiments
-    </td>
-    <td width="33%" valign="top">
-      <strong>Product layer</strong><br />
-      TypeScript, React, Next.js, Vite, Tailwind CSS, dashboards, fast interfaces
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>Backend layer</strong><br />
-      Node.js, Python, PostgreSQL, API design, durable data flows
-    </td>
-    <td width="33%" valign="top">
-      <strong>Infrastructure layer</strong><br />
-      Docker, Linux, SSH, GitHub, Home Assistant, deployment workflows
-    </td>
-    <td width="33%" valign="top">
-      <strong>Quality layer</strong><br />
-      Playwright, integration checks, clear documentation, maintainable handoffs
-    </td>
-  </tr>
-</table>
-
-## ./build-philosophy
-
-```txt
-01  start from the real workflow
-02  automate the parts that create friction
-03  make dangerous operations explicit
-04  keep the interface fast and scannable
-05  document the system like someone else will run it tomorrow
-```
-
-## ./contact
-
-```txt
-GitHub    https://github.com/teefloo
-LinkedIn  https://www.linkedin.com/in/esteban-deloge/
-```
+[GitHub](https://github.com/teefloo) · [LinkedIn](https://www.linkedin.com/in/esteban-deloge/) · [contact@teeflo.me](mailto:contact@teeflo.me) · [teeflo.me](https://teeflo.me/en/)
