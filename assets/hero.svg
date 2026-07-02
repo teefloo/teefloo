@@ -54,11 +54,43 @@
       </path>
     </g>
 
-    <circle r="3.5" class="accent-fill">
-      <animateMotion dur="2.6s" repeatCount="indefinite">
+    <circle r="3.5" class="accent-fill" opacity="0">
+      <animateMotion id="outJeedom" begin="0s;retChrome.end" dur="1s" fill="freeze">
+        <mpath href="#linkJeedom"/>
+      </animateMotion>
+      <animateMotion id="retJeedom" begin="outJeedom.end" dur="0.3s" keyPoints="1;0" keyTimes="0;1" calcMode="linear" fill="freeze">
+        <mpath href="#linkJeedom"/>
+      </animateMotion>
+
+      <animateMotion id="outAI" begin="retJeedom.end" dur="1s" fill="freeze">
         <mpath href="#linkAI"/>
       </animateMotion>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.6s" repeatCount="indefinite"/>
+      <animateMotion id="retAI" begin="outAI.end" dur="0.3s" keyPoints="1;0" keyTimes="0;1" calcMode="linear" fill="freeze">
+        <mpath href="#linkAI"/>
+      </animateMotion>
+
+      <animateMotion id="outN8n" begin="retAI.end" dur="1s" fill="freeze">
+        <mpath href="#linkN8n"/>
+      </animateMotion>
+      <animateMotion id="retN8n" begin="outN8n.end" dur="0.3s" keyPoints="1;0" keyTimes="0;1" calcMode="linear" fill="freeze">
+        <mpath href="#linkN8n"/>
+      </animateMotion>
+
+      <animateMotion id="outChrome" begin="retN8n.end" dur="1s" fill="freeze">
+        <mpath href="#linkChrome"/>
+      </animateMotion>
+      <animateMotion id="retChrome" begin="outChrome.end" dur="0.3s" keyPoints="1;0" keyTimes="0;1" calcMode="linear" fill="freeze">
+        <mpath href="#linkChrome"/>
+      </animateMotion>
+
+      <set attributeName="opacity" to="1" begin="outJeedom.begin"/>
+      <set attributeName="opacity" to="0" begin="outJeedom.end"/>
+      <set attributeName="opacity" to="1" begin="outAI.begin"/>
+      <set attributeName="opacity" to="0" begin="outAI.end"/>
+      <set attributeName="opacity" to="1" begin="outN8n.begin"/>
+      <set attributeName="opacity" to="0" begin="outN8n.end"/>
+      <set attributeName="opacity" to="1" begin="outChrome.begin"/>
+      <set attributeName="opacity" to="0" begin="outChrome.end"/>
     </circle>
 
     <circle cx="870" cy="150" r="9" class="hub"/>
