@@ -11,6 +11,80 @@
     .display { font-family: Georgia, 'Times New Roman', serif; font-size: 62px; font-weight: 700; letter-spacing: 1px; }
     .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
     .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+
+    .animate-fade { animation: atlas-fade 1.1s cubic-bezier(.22, 1, .36, 1) both; }
+    .animate-fade--late { animation-delay: .35s; }
+    .animate-draw {
+      stroke-dasharray: 1;
+      stroke-dashoffset: 0;
+      animation: atlas-draw 1.65s cubic-bezier(.22, 1, .36, 1) both;
+    }
+    .animate-spin {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: atlas-spin 42s linear infinite;
+    }
+    .animate-breathe {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: atlas-breathe 5s ease-in-out 1.25s infinite;
+    }
+    .animate-breathe--inner { animation-delay: 1.6s; animation-duration: 5.8s; }
+    .animate-node {
+      opacity: 1;
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: atlas-node 4.8s ease-in-out var(--node-delay, 0s) infinite;
+    }
+    .animate-node--web { --node-delay: .8s; }
+    .animate-node--ai { --node-delay: 1.25s; }
+    .animate-node--data { --node-delay: 1.7s; }
+    .animate-node--tools { --node-delay: 2.15s; }
+    .animate-node--build { --node-delay: .25s; animation-duration: 5.4s; }
+    .animate-label { animation: atlas-label .8s cubic-bezier(.22, 1, .36, 1) both; }
+    .animate-label--web { animation-delay: .85s; }
+    .animate-label--ai { animation-delay: 1.3s; }
+    .animate-label--data { animation-delay: 1.75s; }
+    .animate-label--tools { animation-delay: 2.2s; }
+    .animate-label--build { animation-delay: .3s; }
+
+    @keyframes atlas-fade {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes atlas-draw {
+      from { stroke-dashoffset: 1; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes atlas-spin {
+      to { transform: rotate(360deg); }
+    }
+    @keyframes atlas-breathe {
+      0%, 100% { opacity: .72; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.035); }
+    }
+    @keyframes atlas-node {
+      0%, 8%, 100% { opacity: .68; transform: scale(.94); }
+      20%, 68% { opacity: 1; transform: scale(1); }
+    }
+    @keyframes atlas-label {
+      from { opacity: 0; transform: translateY(3px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .animate-fade,
+      .animate-draw,
+      .animate-spin,
+      .animate-breathe,
+      .animate-node,
+      .animate-label {
+        animation: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+      }
+      .animate-draw { stroke-dashoffset: 0 !important; }
+    }
   </style>
 
   <rect class="bg" width="1200" height="360" />
@@ -20,11 +94,11 @@
     <path d="M520 40H1200M520 120H1200M520 200H1200M520 280H1200" />
   </g>
 
-  <rect x="24" y="24" width="1152" height="312" rx="2" class="rule" />
-  <path d="M24 78H1176M24 282H1176" class="rule" />
-  <path d="M24 24H72M24 24V72M1176 336H1128M1176 336V288" fill="none" stroke="#d56a4d" stroke-width="2" />
+  <rect x="24" y="24" width="1152" height="312" rx="2" class="rule animate-fade" />
+  <path d="M24 78H1176M24 282H1176" class="rule animate-fade animate-fade--late" />
+  <path d="M24 24H72M24 24V72M1176 336H1128M1176 336V288" class="accent animate-fade" fill="none" stroke="#d56a4d" stroke-width="2" />
 
-  <g class="mono">
+  <g class="mono animate-fade">
     <text x="52" y="61" class="accent" font-size="12" letter-spacing="3">FIELD NOTES / PROFILE INDEX</text>
     <text x="52" y="132" class="ink display">ESTEBAN</text>
     <text x="52" y="195" class="ink display">DELOGE</text>
@@ -34,25 +108,27 @@
   </g>
 
   <g transform="translate(895 178)">
-    <circle r="108" class="rule" />
-    <circle r="82" class="rule" />
-    <path d="M-132 0H132M0-132V132M-93-93L93 93M93-93L-93 93" class="grid" />
-    <path d="M0-116L7-95L0-101L-7-95Z" class="accent" />
-    <path d="M116 0L95 7L101 0L95-7Z" class="accent" />
+    <circle r="108" class="rule animate-breathe" />
+    <circle r="82" class="rule animate-breathe animate-breathe--inner" />
+    <g class="animate-spin">
+      <path d="M-132 0H132M0-132V132M-93-93L93 93M93-93L-93 93" class="grid" />
+      <path d="M0-116L7-95L0-101L-7-95Z" class="accent" />
+      <path d="M116 0L95 7L101 0L95-7Z" class="accent" />
+    </g>
 
-    <path d="M0 0L-82-54M0 0L86-58M0 0L-88 74M0 0L92 70" class="rule" />
-    <circle r="28" class="accent" />
-    <text x="0" y="5" text-anchor="middle" class="sans" fill="#121819" font-size="11" font-weight="700" letter-spacing="1">BUILD</text>
+    <path pathLength="1" d="M0 0L-82-54M0 0L86-58M0 0L-88 74M0 0L92 70" class="rule animate-draw" />
+    <circle r="28" class="accent animate-node animate-node--build" />
+    <text x="0" y="5" text-anchor="middle" class="sans animate-label animate-label--build" fill="#121819" font-size="11" font-weight="700" letter-spacing="1">BUILD</text>
 
     <g class="sans" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="1">
-      <circle cx="-82" cy="-54" r="28" class="bg" stroke="#d56a4d" stroke-width="2" />
-      <text x="-82" y="-50" class="ink">WEB</text>
-      <circle cx="86" cy="-58" r="28" class="bg" stroke="#d56a4d" stroke-width="2" />
-      <text x="86" y="-54" class="ink">AI</text>
-      <circle cx="-88" cy="74" r="28" class="bg" stroke="#d56a4d" stroke-width="2" />
-      <text x="-88" y="78" class="ink">DATA</text>
-      <circle cx="92" cy="70" r="28" class="bg" stroke="#d56a4d" stroke-width="2" />
-      <text x="92" y="74" class="ink">TOOLS</text>
+      <circle cx="-82" cy="-54" r="28" class="bg animate-node animate-node--web" stroke="#d56a4d" stroke-width="2" />
+      <text x="-82" y="-50" class="ink animate-label animate-label--web">WEB</text>
+      <circle cx="86" cy="-58" r="28" class="bg animate-node animate-node--ai" stroke="#d56a4d" stroke-width="2" />
+      <text x="86" y="-54" class="ink animate-label animate-label--ai">AI</text>
+      <circle cx="-88" cy="74" r="28" class="bg animate-node animate-node--data" stroke="#d56a4d" stroke-width="2" />
+      <text x="-88" y="78" class="ink animate-label animate-label--data">DATA</text>
+      <circle cx="92" cy="70" r="28" class="bg animate-node animate-node--tools" stroke="#d56a4d" stroke-width="2" />
+      <text x="92" y="74" class="ink animate-label animate-label--tools">TOOLS</text>
     </g>
   </g>
 
